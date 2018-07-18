@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nikhil.personalinfodata">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Personal Data"
+        android:roundIcon="@drawable/imgicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".GetAllActivity"
+            android:label="All Person Data"
+            android:parentActivityName=".HomeActivity">
+
+        </activity>
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Add Person"
+            android:parentActivityName=".HomeActivity">
+
+        </activity>
+        <activity
+            android:name=".UpdatePersonActivity"
+            android:label="Update Person Data"
+            android:parentActivityName=".HomeActivity">
+
+        </activity>
+        <activity
+            android:name=".DeletePersonActivity"
+            android:label="Delete Person Data"
+            android:parentActivityName=".HomeActivity">
+
+        </activity>
+    </application>
+
+</manifest>

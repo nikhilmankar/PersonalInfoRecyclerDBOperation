@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="@dimen/btnwidth"
+        android:layout_height="@dimen/btnheight"
+        android:layout_marginTop="@dimen/margintop"
+        android:background="@drawable/btn"
+        android:text="Add"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGetAll"
+        android:layout_width="@dimen/btnwidth"
+        android:layout_height="@dimen/btnheight"
+        android:layout_marginTop="@dimen/margintop"
+        android:background="@drawable/btn"
+        android:text="GetAll"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="@dimen/btnwidth"
+        android:layout_height="@dimen/btnheight"
+        android:layout_marginTop="@dimen/margintop"
+        android:background="@drawable/btn"
+        android:text="Update"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="@dimen/btnwidth"
+        android:layout_height="@dimen/btnheight"
+        android:layout_marginTop="@dimen/margintop"
+        android:background="@drawable/btn"
+        android:text="Delete"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+</LinearLayout>
